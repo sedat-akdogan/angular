@@ -9,26 +9,17 @@ import { GaugeModule } from 'angular-gauge';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatSelectModule } from '@angular/material/select';
-import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { MatSelectModule}
 
 
 @NgModule({
     declarations: [
-        AppComponent,
-        SearchBarComponent
+        AppComponent
     ],
     imports: [
         BrowserModule,
-        BrowserAnimationsModule,
         AppRoutingModule,
-        HttpClientModule,
-        FormsModule,
-        GaugeModule.forRoot(),
-        MatFormFieldModule,
-        MatSelectModule,
-        MatTabsModule,
-        MatIconModule
+        BrowserAnimationsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
