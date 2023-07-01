@@ -25,8 +25,8 @@ import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
         AppComponent,
         SearchBarComponent,
         HomeComponent,
-        // DetailsComponent,
-        // GameTabsComponent
+        DetailsComponent,
+        GameTabsComponent
     ],
     imports: [
         BrowserModule,
